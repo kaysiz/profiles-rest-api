@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'profiles_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'profile-rest-api',
+        'NAME': 'profiles-rest-api',
         'USER': 'kaysiz',
         'PASSWORD': '123456',
         'HOST': '',
