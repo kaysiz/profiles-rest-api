@@ -25,7 +25,11 @@ SECRET_KEY = 's5e9q9pvhpp!(-ox%97cl$6las@h&2-i9jt(*2e@tqti6uiwi$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'kaysiz-profiles-rest-api.herokuapp.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 # Application definition
 
