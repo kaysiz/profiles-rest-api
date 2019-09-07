@@ -25,8 +25,7 @@ SECRET_KEY = 's5e9q9pvhpp!(-ox%97cl$6las@h&2-i9jt(*2e@tqti6uiwi$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -78,12 +77,12 @@ WSGI_APPLICATION = 'profiles_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'profiles-rest-api',
         'USER': 'kaysiz',
         'PASSWORD': '123456',
-        'HOST': '',
-        'PORT': '',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
